@@ -1,0 +1,21 @@
+
+{
+  "short_name": "Akha Dict",
+  "name": "Akha Heritage Dictionary",
+  "icons": [
+    {
+      "src": "https://images.unsplash.com/photo-1518005020950-77983088b99c?q=80&w=192&h=192&auto=format&fit=crop",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1518005020950-77983088b99c?q=80&w=512&h=512&auto=format&fit=crop",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#18181b",
+  "background_color": "#ffffff"
+}
