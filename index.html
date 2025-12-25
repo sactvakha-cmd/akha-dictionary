@@ -13,7 +13,6 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://akha-dictionary.app/" />
     <meta property="og:title" content="Akha Dictionary" />
     <meta property="og:description" content="สืบสานมรดกทางภาษาอาข่าผ่านเทคโนโลยีสมัยใหม่" />
     <meta property="og:image" content="https://images.unsplash.com/photo-1518005020950-77983088b99c?q=80&w=1200&h=630&auto=format&fit=crop" />
@@ -77,6 +76,7 @@
 </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
+    <!-- ใช้ ./ เพื่อให้ Vite หาไฟล์เจอไม่ว่าจะอยู่ในโฟลเดอร์ย่อยหรือไม่ -->
+    <script type="module" src="./index.tsx"></script>
   </body>
 </html>
